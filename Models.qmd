@@ -1,0 +1,16 @@
+---
+title: "Models"
+format: html
+execute: 
+  echo: FALSE
+---
+
+```{r}
+#| label: setup
+#| message: FALSE
+
+library(tidyverse)
+```
+
+Using data from a YouGov poll of 1,559 US adult citizens, conducted March 10 - 12, 2024, we are looking for the answer to the following question:
+What proportion of all votes for the 2024 election will be cast for Biden?
