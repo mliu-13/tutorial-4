@@ -46,6 +46,7 @@ fit_bern |>
         y = "Probability")
 ```
 
+
 $$ biden_i =  \mu + \epsilon_i $$
 
 Using data from a YouGov poll of 1,559 US adult citizens, conducted March 10 - 12, 2024, we are looking for the answer to the following question:
@@ -54,3 +55,4 @@ What proportion of all votes for the 2024 election will be cast for Biden?
 The poll data is being organized into a tibble, with a vote for Biden being equivalent to 1. This model is formatted in the most simple way possible.
 
 The quantity of interest is the proportion of people who will cast their votes for Biden in the 2024 election. However, there are many uncontrolled factors which tell us that the conclusion we have come to is false.
+
